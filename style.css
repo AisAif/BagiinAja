@@ -1,0 +1,134 @@
+    * {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: lavender;
+        background-repeat: no-repeat;
+        background-size: auto;
+        display: block;
+    }
+    
+    nav .nav {
+        background-color: rgb(6, 175, 133);
+        border-bottom-style: solid;
+        border-bottom-color: rgb(11, 119, 92);
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        position: fixed;
+        display: inline-flex;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 13px 0;
+        width: 100%;
+        z-index: 1000;
+        justify-content: center;
+    }
+    
+    nav .nav .logo {
+        float: left;
+        margin: auto auto auto 15%;
+    }
+    
+    nav .nav .logo a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 170%;
+        font-weight: bold;
+        text-decoration: none;
+        color: lavender;
+    }
+    
+    nav .nav .logo a:hover {
+        color: #43c3da;
+        transition: all .3s ease;
+        font-size: 190%;
+    }
+    
+    nav .nav .blank {
+        margin: auto;
+    }
+    
+    nav .nav ul {
+        list-style: none;
+        float: right;
+        display: flex;
+        margin: auto 10%;
+    }
+    
+    nav .nav ul li a {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        color: lavender;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    
+    nav .nav ul li a:hover {
+        color: #43c3da;
+        border-bottom: 3px solid #43c3da;
+        transition: all .3s ease;
+    }
+    
+    .content {
+        position: absolute;
+        top: 15%;
+        width: 70%;
+        margin: auto 15%;
+        font-family: sans-serif;
+        color: rgb(43, 42, 42);
+    }
+    
+    .content .header-txt {
+        text-align: center;
+    }
+    
+    .content .header-txt h1 {
+        color: rgb(5, 168, 127);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    
+    .content .header-txt h1 span {
+        color: #0caeca;
+    }
+    
+    .content .content-area {
+        margin: 10% auto;
+        display: flex;
+        align-content: center;
+    }
+    
+    .content .content-area .img-area {
+        margin: auto 4%;
+        width: 50%;
+    }
+    
+    .content .content-area .img-area img {
+        border-radius: 30%;
+        border: 0 solid;
+        box-shadow: 0 0 3px 3px rgb(11, 119, 92, .5);
+    }
+    
+    .content .content-area .txt-area {
+        margin: auto 4%;
+        width: 50%;
+    }
+    
+    .content .goal {
+        width: 80%;
+        margin: 10% 10%;
+        text-align: center;
+    }
+    
+    .content .goal img {
+        width: 25%;
+    }
